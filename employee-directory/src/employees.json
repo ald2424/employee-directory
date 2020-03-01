@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "firstName": "Mary Jo",
+      "lastName": "Johnson",
+      "department": "Sales",
+      "empType": "Full Time"
+    },
+    {
+        "id": 2,
+        "firstName": "Robert",
+        "lastName": "Fox",
+        "department": "Sales",
+        "empType": "Full Time"
+      },
+      {
+        "id": 3,
+        "firstName": "Albert",
+        "lastName": "Abernathy",
+        "department": "Finance",
+        "empType": "Full Time"
+      },
+      {
+        "id": 4,
+        "firstName": "Sherri",
+        "lastName": "Harris",
+        "department": "Finance",
+        "empType": "Part Time"
+      },
+      {
+        "id": 5,
+        "firstName": "Julie",
+        "lastName": "Jenkins",
+        "department": "Finance",
+        "empType": "Full Time"
+      },
+      {
+        "id": 6,
+        "firstName": "Gregory",
+        "lastName": "Seymore",
+        "department": "Sales",
+        "empType": "Part Time"
+      },
+      {
+        "id": 7,
+        "firstName": "Craig",
+        "lastName": "Roberts",
+        "department": "Sales",
+        "empType": "Part Time"
+      },
+      {
+        "id": 8,
+        "firstName": "Marcos",
+        "lastName": "Valasquez",
+        "department": "Sales",
+        "empType": "Full Time"
+      },
+      {
+        "id": 9,
+        "firstName": "Whiney",
+        "lastName": "Morgan",
+        "department": "Sales",
+        "empType": "Part Time"
+      },
+      {
+        "id": 10,
+        "firstName": "Amber",
+        "lastName": "Richardson",
+        "department": "Finance",
+        "empType": "Part Time"
+      },
+      {
+        "id": 11,
+        "firstName": "Sandra",
+        "lastName": "Newman",
+        "department": "Marketing",
+        "empType": "Full Time"
+      },
+      {
+        "id": 12,
+        "firstName": "Douglas",
+        "lastName": "Jones",
+        "department": "Marketing",
+        "empType": "Part Time"
+      },
+      {
+        "id": 13,
+        "firstName": "Cameron",
+        "lastName": "Olsen",
+        "department": "Sales",
+        "empType": "Part Time"
+      },
+      {
+        "id": 14,
+        "firstName": "Jane",
+        "lastName": "Watson",
+        "department": "Finance",
+        "empType": "Full Time"
+      },
+      {
+        "id": 15,
+        "firstName": "Howard",
+        "lastName": "Schrute",
+        "department": "Sales",
+        "empType": "Full Time"
+      },
+      {
+        "id": 16,
+        "firstName": "Karen",
+        "lastName": "Brown",
+        "department": "Marketing",
+        "empType": "Full Time"
+      },
+      {
+        "id": 17,
+        "firstName": "Justin",
+        "lastName": "Hatzel",
+        "department": "Sales",
+        "empType": "Part Time"
+      },
+      {
+        "id": 18,
+        "firstName": "Victor",
+        "lastName": "Brown",
+        "department": "Sales",
+        "empType": "Full Time"
+      },
+      {
+        "id": 19,
+        "firstName": "Luanne",
+        "lastName": "Fox",
+        "department": "Sales",
+        "empType": "Full Time"
+      },
+      {
+        "id": 20,
+        "firstName": "Danise",
+        "lastName": "Newman",
+        "department": "Sales",
+        "empType": "Full Time"
+      }
+    ]
