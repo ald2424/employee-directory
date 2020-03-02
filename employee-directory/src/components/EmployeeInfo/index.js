@@ -7,7 +7,7 @@ function EmpInfo(props) {
       <div>
         <ul>
           <li>
-            <strong>Name:</strong> {props.firstName} {" "} {props.lastName}
+            <strong>Name:</strong> {props.name}
           </li>
           <li>
             <strong>Occupation:</strong> {props.department}

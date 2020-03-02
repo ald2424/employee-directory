@@ -1,141 +1,121 @@
 [
     {
       "id": 1,
-      "firstName": "Mary Jo",
-      "lastName": "Johnson",
+      "name": "Mary Johnson",
       "department": "Sales",
       "empType": "Full Time"
     },
     {
         "id": 2,
-        "firstName": "Robert",
-        "lastName": "Fox",
+        "name": "Robert Fox",
         "department": "Sales",
         "empType": "Full Time"
       },
       {
         "id": 3,
-        "firstName": "Albert",
-        "lastName": "Abernathy",
+        "name": "Albert Abernathy",
         "department": "Finance",
         "empType": "Full Time"
       },
       {
         "id": 4,
-        "firstName": "Sherri",
-        "lastName": "Harris",
+        "name": "Sherri Hartley",
         "department": "Finance",
         "empType": "Part Time"
       },
       {
         "id": 5,
-        "firstName": "Julie",
-        "lastName": "Jenkins",
+        "name": "Julie Potter",
         "department": "Finance",
         "empType": "Full Time"
       },
       {
         "id": 6,
-        "firstName": "Gregory",
-        "lastName": "Seymore",
+        "name": "Gregory Seymore",
         "department": "Sales",
         "empType": "Part Time"
       },
       {
         "id": 7,
-        "firstName": "Craig",
-        "lastName": "Roberts",
+        "name": "Craig Roberts",
         "department": "Sales",
         "empType": "Part Time"
       },
       {
         "id": 8,
-        "firstName": "Marcos",
-        "lastName": "Valasquez",
+        "name": "Marcos Valasquez",
         "department": "Sales",
         "empType": "Full Time"
       },
       {
         "id": 9,
-        "firstName": "Whiney",
-        "lastName": "Morgan",
+        "name": "Whiney Robert",
         "department": "Sales",
         "empType": "Part Time"
       },
       {
         "id": 10,
-        "firstName": "Amber",
-        "lastName": "Richardson",
+        "name": "Amber Richardson",
         "department": "Finance",
         "empType": "Part Time"
       },
       {
         "id": 11,
-        "firstName": "Sandra",
-        "lastName": "Newman",
+        "name": "Sandra Newman",
         "department": "Marketing",
         "empType": "Full Time"
       },
       {
         "id": 12,
-        "firstName": "Douglas",
-        "lastName": "Jones",
+        "name": "Douglas Jones",
         "department": "Marketing",
         "empType": "Part Time"
       },
       {
         "id": 13,
-        "firstName": "Cameron",
-        "lastName": "Olsen",
+        "name": "Cameron Olson",
         "department": "Sales",
         "empType": "Part Time"
       },
       {
         "id": 14,
-        "firstName": "Jane",
-        "lastName": "Watson",
+        "name": "Jane Wattson",
         "department": "Finance",
         "empType": "Full Time"
       },
       {
         "id": 15,
-        "firstName": "Howard",
-        "lastName": "Schrute",
+        "name": "Howard Schrute",
         "department": "Sales",
         "empType": "Full Time"
       },
       {
         "id": 16,
-        "firstName": "Karen",
-        "lastName": "Brown",
+        "name": "Karen Brown",
         "department": "Marketing",
         "empType": "Full Time"
       },
       {
         "id": 17,
-        "firstName": "Justin",
-        "lastName": "Hatzel",
+        "name": "Justin Hatzel",
         "department": "Sales",
         "empType": "Part Time"
       },
       {
         "id": 18,
-        "firstName": "Victor",
-        "lastName": "Brown",
+        "name": "Victor Brown",
         "department": "Sales",
         "empType": "Full Time"
       },
       {
         "id": 19,
-        "firstName": "Luanne",
-        "lastName": "Fox",
+        "name": "Luanne Fox",
         "department": "Sales",
         "empType": "Full Time"
       },
       {
         "id": 20,
-        "firstName": "Danise",
-        "lastName": "Newman",
+        "name": "Danise Newman",
         "department": "Sales",
         "empType": "Full Time"
       }
