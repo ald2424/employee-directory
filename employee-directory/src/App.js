@@ -8,17 +8,29 @@ class App extends Component {
 
   state = {
     employees,
-    input:''
+    search: ""
+  };
+
+  updateSearch = e => {
+    this.setState({
+      search: e.target.value
+    });
   };
 
 
   render() {
-    
+    let filteredEmps = this.state.employees.filter(
+      (employee) => {
+        return employee.name.toLowerCase().indexOf(this.state.search.toLocaleLowerCase()) != -1;
+      }
+    );
     return (
       <div>
-    <SearchBar employees={this.state.input}/>
+    {/* <SearchBar search={this.state.search}
+          handleInputChange={this.handleInputChange}/> */}
+    <input type='text' onChange={this.updateSearch}/>
     <Wrapper>
-        {this.state.employees.map(employee => (
+        {filteredEmps.map(employee => (
          <EmpInfo
             id={employee.id}
             key={employee.id}
