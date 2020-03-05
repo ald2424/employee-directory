@@ -5,7 +5,7 @@ function searchBar(props){
     return(
         
         <div>
-        
+        <input type='text' name="search" onChange={props.updateSearch}/>
       </div>
         
     )

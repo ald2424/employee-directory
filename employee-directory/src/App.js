@@ -3,6 +3,7 @@ import EmpInfo from "./components/EmployeeInfo";
 import Wrapper from "./components/Wrapper";
 import SearchBar from "./components/SearchBar";
 import RadioOptions from "./components/RadioOptions";
+import SortButtons from "./components/SortButtons";
 import employees from "./employees.json";
 
 class App extends Component {
@@ -20,7 +21,7 @@ class App extends Component {
     });
   };
 
-  sort = e => {
+  sortFirstName = e => {
     let copy = [...this.state.employees];
     copy.sort((a,b)=>{
       var nameA = a.name.toUpperCase(); 
@@ -37,48 +38,65 @@ class App extends Component {
     this.setState({employees: copy})
   }
 
+  sortLastName = e => {
+    let copy = [...this.state.employees];
+
+    copy.sort((a,b)=>{
+
+      let aFirst = a.name.split(" ");
+      let bFirst = b.name.split(" ");
+      let aLast = aFirst[aFirst.length -1];
+      let bLast = bFirst[bFirst.length -1];
+
+      if(aLast < bLast) return -1;
+      if(aLast > bLast) return 1;
+      return 0;
+    })
+    this.setState({employees: copy})
+  }
+
 
   render() {
+
+    // allows the search bar and radio buttons to work
     let filteredEmps = this.state.employees.filter(
       (employee) => {
         let checked;
         if(this.state.selectedOption === "all" || this.state.selectedOption === employee.empType) checked = true;
         else checked = false;
-
         //let checked = this.state.selectedOption === "all" || this.state.selectedOption === employee.empType
-
         return employee.name.toLowerCase().indexOf(this.state.search.toLowerCase()) != -1 && checked;      
-    }
+       }
     );
     
     return (
-      // search bar
       <div>
-        <button onClick={this.sort}>Sort</button>
-    <input type='text' name="search" onChange={this.updateSearch}/>
-    {/* *********************************************/}
+        <SortButtons
+         sortFirstName={this.sortFirstName}
+         sortLastName={this.sortLastName}
+       />
 
-    {/* Radio Buttons */}
-    <RadioOptions
-      selectedOption={this.state.selectedOption}
-      updateSearch = {this.updateSearch}
-    />
+        <SearchBar
+         updateSearch={this.updateSearch}
+        />
+
+        <RadioOptions
+         selectedOption={this.state.selectedOption}
+          updateSearch = {this.updateSearch}
+        />
     
-    {/* ****************************************************** */}
-
-    {/* List of Employees */}
-    <Wrapper>
-        {filteredEmps.map(employee => (
-         <EmpInfo
-            id={employee.id}
-            key={employee.id}
-            name={employee.name}
-            department={employee.department}
-            empType={employee.empType}
-          />
-        ))}
+        <Wrapper>
+          {filteredEmps.map(employee => (
+            <EmpInfo
+              id={employee.id}
+              key={employee.id}
+              name={employee.name}
+              department={employee.department}
+              empType={employee.empType}
+            />
+           ))}
         </Wrapper>
-      {/* *********************************************************** */}
+      
       </div>
     );
   }
