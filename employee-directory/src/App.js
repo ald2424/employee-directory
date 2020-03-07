@@ -65,7 +65,7 @@ class App extends Component {
         if(this.state.selectedOption === "all" || this.state.selectedOption === employee.empType) checked = true;
         else checked = false;
         //let checked = this.state.selectedOption === "all" || this.state.selectedOption === employee.empType
-        return employee.name.toLowerCase().indexOf(this.state.search.toLowerCase()) != -1 && checked;      
+        return employee.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 && checked;      
        }
     );
     

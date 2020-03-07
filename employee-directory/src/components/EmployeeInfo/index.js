@@ -1,24 +1,18 @@
 import React from "react";
-//import "./style.css";
+import "./style.css";
 
 function EmpInfo(props) {
   return (
-    <div>
-      <div>
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong> {props.department}
-          </li>
-          <li>
-            <strong>Employment Type:</strong> {props.empType}
-          </li>
-        </ul>
-      </div>
-    </div>
+      <div className="card">
+  <h5 className="card-header"><strong>Name:</strong> {props.name}</h5>
+  <div className="card-body">
+    <p className="card-text"><strong>Occupation:</strong> {props.department}</p>
+    <p className="card-text"><strong>Employment Type:</strong> {props.empType}</p>
+  </div>
+</div>
   );
 }
 
 export default EmpInfo;
+
+
