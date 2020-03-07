@@ -1,3 +1,2 @@
-Employee Directory live page: https://git.heroku.com/hidden-harbor-58029.git
-
+Employee Directory live page: http://hidden-harbor-58029.herokuapp.com/
 
